@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sensor Data</title>
+  </head>
+  <body>
+	 <p>Hello {{g.user[1]}}</p>
+	 <p>Temperature: {{ roundv(g.s.temperature, 2) }} degrees Celcius</p>
+	 <p>Humidity: {{ roundv(g.s.humidity, 1) }} %</p>
+	 <p>Pressure: {{ roundv(g.s.pressure, 3) }} mbar</p>
+
+	 <p><a href="/">Home page</a></p>
+  </body>
+</html>
