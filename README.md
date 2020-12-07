@@ -1,1 +1,1 @@
-# IoT_SenseHat
+# iot-sensehat
