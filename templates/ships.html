@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Battleship Game</title>
+  </head>
+  <body>
+	 <p>Hello {{g.user[1]}}</p>
+	 <form method="POST">
+	   <p>
+	      <p>Please enter the LED coordinates
+	      (if the value entered is greater than 7,
+	      the Battleship Game will restart):</p>
+
+    	      <input type="text" name="horizontal" size="6" placeholder="Horizontal" /> Χ
+	      <input type="text" name="vertical" size="6" placeholder="Verical" />
+	      <br>
+	      <button type="submit">Send to Sense-Hat</button>
+	   </p>
+	 </form>
+	 <p><a href="/ships">Refresh</a></p>
+	 <p><a href="/">Home page</a></p>
+  </body>
+</html>
